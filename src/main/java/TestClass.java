@@ -13,5 +13,11 @@ public class TestClass {
 
     public static void main(String[] args) {
 
+        FunctionalInterfaceExample fi = (a,b)-> {int i = a+b;
+            System.out.println("Addition of a and b :-"+i);
+            return i;};
+
+        fi.add(5,10);
+
     }
 }
