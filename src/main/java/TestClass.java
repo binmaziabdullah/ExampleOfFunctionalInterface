@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class TestClass {
     /*the interface which have exactly single abstract method known as functional interface
       Functional Interface is enabling the functional programming
@@ -27,6 +29,20 @@ public class TestClass {
             return i;};
 
         fi.add(5,10);
+
+        EvenOrOdd evenOrOdd = ()->{
+            int num;
+            System.out.println("Enter the number to check:");
+            Scanner scanner = new Scanner(System.in);
+            num = scanner.nextInt();
+
+            if (num%2==0)
+                System.out.println(num+" "+"is Even number");
+            else
+                System.out.println(num+" "+"is Odd number");
+        };
+
+        evenOrOdd.evenOrOdd();
 
     }
 }
