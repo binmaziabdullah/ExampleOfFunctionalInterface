@@ -11,6 +11,15 @@ public class TestClass {
     * we can create the lambda expression/
     */
 
+    /*-------lambda expression----------
+    * lambda expression is the anonymous function and it  is the implementation of Functional Interface.
+    * or you can say it it is the extension or the enhancement of anonymous class.
+    * lambda expression is an object and instance of one FI when it is implemented.
+    * lambda expression is used to write the clean & concise way to represent the code.
+    * it optimise the code and increase the readability of the code.
+    * it only takes the (param list) and method body which is separate by ->(arrow).
+    * method signature is optional in lambda expression*/
+
     public static void main(String[] args) {
 
         FunctionalInterfaceExample fi = (a,b)-> {int i = a+b;
